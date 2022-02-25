@@ -7,7 +7,7 @@ int main()
 
 {
 	
-       int number_a, number_b;
+       unsigned int number_a, number_b;
 	
 	scanf("%d %d", &number_a, &number_b);//输入所求素数的区间 
 	
