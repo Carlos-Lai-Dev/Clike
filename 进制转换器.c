@@ -14,8 +14,8 @@ int main()
   while(a!=0){
           
       c=a%2;     
-      x=d*c;
-      b+=x;
+      //x=d*c;
+      b+=d*c;
       a/=2;
       d*=10;
      
