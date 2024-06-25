@@ -7,6 +7,7 @@ typedef struct Node{
 
 Node* InitStack()
 {
+  //Node* stack = new Node();
   Node* stack = (Node*)malloc(sizeof(Node));
   stack -> data = 0;
   stack -> next = NULL;
